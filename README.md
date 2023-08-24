@@ -18,11 +18,15 @@ sudo pacman -S glibc lib32-glibc
 
 # Install program LazyVim
 
+
+
 # Commands
 
 ## Open the available Commands
 
 - Use <kbd>Space</kbd> to show all available commands on LazyVim
+
+<img src="images/commands-available.png">
 
 
 
