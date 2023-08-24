@@ -28,6 +28,14 @@ sudo pacman -S glibc lib32-glibc
 
 <img src="images/commands-available.png">
 
+## Open NeoTree
+
+- Neotree is a plugin to show the folders from the current folder you open neovim.
+- To activate click on <kbd>Space</kbd> + <kbd>E</kbd> to open neotree.
+- Select a folder and click <kbd>Enter</kbd> to open the folder.
+- If you click <kbd>Enter</kbd> into a file, it's going to open in neovim. 
+
+
 
 
 
