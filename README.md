@@ -52,7 +52,7 @@ rm -rf ~/.config/nvim/.git
 - If you click <kbd>Enter</kbd> into a file, it's going to open in neovim.
 - You can close neotree just clicking <kbd>Q</kbd> to exit.
 
-<img src="image/neotree.png">
+<img src="images/neotree.png">
 
 ---
 
@@ -61,7 +61,7 @@ rm -rf ~/.config/nvim/.git
 - Mason is a package manager to install configs for computer languages in our LazyVim.
 - You can access him clicking <kbd>Space</kbd> + <kbd>C</kbd> + <kbd>M</kbd> to open the mason window.
 
-<img src="image/mason-intro.png">
+<img src="images/mason-intro.png">
 
 - You can see the names for the packages you can install into lazyvim.
 - After you find someone you like, you can install using the command
@@ -72,11 +72,11 @@ rm -rf ~/.config/nvim/.git
 MasonInstall gh
 ```
 
-<img src="image/mason-install.png">
+<img src="images/mason-install.png">
 
 - After complete, it's going to show that was installed and a popup saying the same:
 
-<img src="image/mason-install2.png">
+<img src="images/mason-install2.png">
 
 ---
 
