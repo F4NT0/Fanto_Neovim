@@ -229,3 +229,30 @@ return {
 
 <img src="images/telescope-plugin-example.png">
 
+---
+
+# Customize the logo from lazyvim
+
+- We can change the Lazyvim logo to something more customized using the `alpha-nvim` plugin.
+- First we create a new plugin file called `alpha.lua` into plugin directory.
+- Insert this code into the file.
+
+```lua
+return {
+    "goolord/alpha-nvim", -- official lazyvim plugin
+    enable = true, -- activate this plugin into lazyvim
+    opts = function(_, opts)
+        local logo = [[
+             ______            __             _         
+            / ____/___ _____  / /_____ _   __(_)___ ___ 
+           / /_  / __ `/ __ \/ __/ __ \ | / / / __ `__ \
+          / __/ / /_/ / / / / /_/ /_/ / |/ / / / / / / /
+         /_/    \__,_/_/ /_/\__/\____/|___/_/_/ /_/ /_/ 
+                                               
+                    [FANTO IDE INTO TERMINAL]
+        ]]
+        opts.section.header.val = vim.split(logo, "\n", {  trimempty = true })
+        end,
+}
+```
+
